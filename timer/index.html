@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="watch">
+        <h1 id="display-time">0:0:0:0</h1>
+        <div class="buttons">
+            <img src="media/pause.png" onclick="pauseWatch()" >
+            <img src="media/play-button.png" onclick="startWatch()">
+            <img src="media/repeat.png" onclick="resetWatch()">
+            <img src="media/lap.png" onclick="lapWatch()" onclick="startWatch()">
+        </div>
+        <p id="lappp"></p> 
+        
+        
+    </div>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
